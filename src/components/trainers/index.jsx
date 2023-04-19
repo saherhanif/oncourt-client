@@ -1,5 +1,5 @@
 import React from 'react'
-import './trainerStyle.scss'
+import './trainerStyle.css'
 import StyledLine from '../StyledLine'
 import trainerImg1 from './images/trainer1.PNG'
 
@@ -20,7 +20,7 @@ export default function Trainers() {
           <h2>שחקן מקצועי ומעל 5 שנים ניסיון בהוראה</h2>
         </div>
         <div className='trainerImg'>
-          <img src={trainerImg1} alt='trainer'/>
+          {/* <img src={trainerImg1} alt='trainer'/> */}
         </div>
       </div>
 

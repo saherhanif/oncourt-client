@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.scss";
+import "./aboutOnCourt.scss";
 import aboutImg from "./tennis-in-out-line-call.png";
 import StyledLine from "../StyledLine";
 export default function AboutOnCourt() {
