@@ -1,8 +1,10 @@
-import React from 'react'
-
+import React from "react";
+import Navbar from "../../components/nav-bar";
 
 export default function Services() {
   return (
-    <div>Service</div>
-  )
+    <div>
+      <Navbar />
+    </div>
+  );
 }

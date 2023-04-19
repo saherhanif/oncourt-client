@@ -1,0 +1,24 @@
+.trainerContainer{
+  
+  height: auto;
+  background-color: antiquewhite;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ 
+  .trainerCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .trainerInfo{
+      width: 50%;
+    }
+    .trainerImg{
+      width: 50%;
+      img{
+   
+      }
+    }
+  }
+}

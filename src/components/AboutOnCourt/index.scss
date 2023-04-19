@@ -1,0 +1,75 @@
+.aboutOnCourtContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.rightHalf {
+  width: 50%;
+  background-color: #bed990;
+  display: block;
+  z-index: -1;
+  padding-right: 100px;
+  padding-top: 100px;
+
+  h1 {
+    color: white;
+    z-index: 1;
+  }
+  p {
+    font-size: 30px;
+    width: 70%;
+    z-index: 1;
+  }
+  hr {
+    z-index: 1;
+    font-size: 3px;
+    border: 1px solid red;
+    width: 70%;
+    align-self: flex-start;
+  }
+}
+
+.leftHalf {
+  width: 50%;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutOnCourtContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    .rightHalf {
+      width: auto;
+      padding: 5vh;
+
+      h1 {
+        font-size: 35px;
+      }
+      p{
+        font-size: 20px;
+        width: 100%;
+      }
+      .lineContainer {
+        width: 100%;
+        
+        .bigHalf {
+          width: 40%;
+        }
+      }
+    }
+    .leftHalf{
+      width: 100%;
+      height: 400px;
+    }
+  }
+}

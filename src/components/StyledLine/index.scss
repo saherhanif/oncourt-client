@@ -1,0 +1,17 @@
+.lineContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+
+  .bigHalf {
+    width: 30%;
+    height: 20px;
+    background-color: #626A64;
+  }
+  .smallHalf {
+    width: 50%;
+    height: 5px;
+    background-color: #626A64;
+  }
+}
