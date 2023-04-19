@@ -7,9 +7,9 @@ import img3 from "./images/slideshowImg3.png";
 
 const Slideshow = () => {
   const slides = [
-    { url: img1, title: "beach" },
-    { url: img2, title: "boat" },
-    { url: img3, title: "forest" },
+    { url: img1, title: "img1" },
+    { url: img2, title: "img2" },
+    { url: img3, title: "img3" },
   ];
   const containerStyles = {
     width: "cover",
