@@ -26,7 +26,7 @@ export default function Trainers() {
           <img src={trainerImg1} alt='trainer'/>
         </div>
       </div>
-      <div className='trainerCard'>
+      <div className='trainerCard secondTrainer'>
         <div className='trainerInfo'>
           <h2>המאמן בדיע</h2>
          <span> <p>שחקן מקצועי ומעל 5 שנים ניסיון בהוראה</p> </span>
