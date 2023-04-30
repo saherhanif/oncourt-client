@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "../../components/nav-bar";
-import Slideshow from "../../components/slideshow";
-import AboutOnCourt from "../../components/AboutOnCourt";
-import Trainers from '../../components/trainers'
-import OurClients from "../../components/ourClients";
-import HomePageFooter from "../../components/homePageFooter";
+import Slideshow from "../../components/homePageComponents/slideshow";
+import AboutOnCourt from "../../components/homePageComponents/AboutOnCourt";
+import Trainers from "../../components/homePageComponents/trainers";
+import OurClients from "../../components/homePageComponents/ourClients";
+import HomePageFooter from "../../components/homePageComponents/homePageFooter";
 
 export default function Home() {
   return (

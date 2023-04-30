@@ -1,0 +1,168 @@
+.trainersToggleContainer {
+  margin-top: 13rem;
+  margin-right: 10rem;
+
+  .nameButtonsContainer {
+    button {
+      height: 3rem;
+      width: 7rem;
+      margin-bottom: 0;
+      border: none;
+      border-left: 2px solid black;
+      font-size: 150%;
+      background-color: #fff;
+      font-weight: bold;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+  }
+  hr {
+    margin: 0;
+    float: right;
+    width: 60%;
+    border: 0.2rem solid black;
+  }
+
+  .trainerInfoCard {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    background-image: url(./blurredbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -8rem;
+    background-position-x: 10rem;
+
+    .trainerInfoAndDetails {
+      display: block;
+      width: 50%;
+      font-size: 150%;
+
+      p {
+        line-height: 50px;
+        font-size: 90%;
+        font-weight: bold;
+      }
+
+      button {
+        margin-top: 2rem;
+        align-items: center;
+        background-color: #fff;
+        border: 7px solid #333232;
+        box-sizing: border-box;
+        color: #000;
+        cursor: pointer;
+        display: inline-flex;
+        fill: #000;
+        font-family: Inter, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        height: 80px;
+        width: 300px;
+        justify-content: center;
+        letter-spacing: -0.8px;
+        line-height: 24px;
+        min-width: 140px;
+        outline: 0;
+        padding: 0 17px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.3s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+
+      button:focus {
+        color: #171e29;
+      }
+
+      button:hover {
+        border-color: #a1bf57;
+        color: #a1bf57;
+        fill: #a1bf57;
+      }
+
+      button:active {
+        border-color: #a1bf57;
+        color: #a1bf57;
+        fill: #a1bf57;
+      }
+    }
+
+    .trainersImageCntainer {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: center;
+
+      img {
+        border-radius: 50%;
+        width: 25rem;
+        height: 25rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .trainersToggleContainer {
+    margin: 0;
+    margin-top: 15rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    hr {
+      width: 100%;
+    }
+    .trainerInfoCard {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-left: 2rem;
+      background-image: url(./blurredbg.png);
+      background-repeat: no-repeat;
+      background-size:120%;
+      background-position-y: 5rem;
+      background-position-x: -1rem;
+
+      .trainerInfoAndDetails {
+        width: 100%;
+
+        h1{
+          font-size: 200%;
+        }
+
+        p {
+          font-size: 110%;
+          line-height:2rem;
+          width: 90%;
+        }
+
+        button{
+          width: 8rem;
+          height: 5rem;
+          font-size: 90%;
+        }
+      }
+
+      .trainersImageCntainer {
+        margin-top: 5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 15rem;
+          height: 15rem;
+        }
+      }
+    }
+  }
+}

@@ -1,7 +1,8 @@
 import React from "react";
 import "./homePageFooter.scss";
 import footerHomeLogo from './oncourtLogo-removebg-preview.png'
-
+import {ReactComponent as FacebookLogo} from './facebook-color-svgrepo-com.svg'
+import { ReactComponent as InstagramLogo } from "./instagram-1-svgrepo-com.svg";
 export default function HomePageFooter() {
   return (
     <div className="homePageFooterContainer">
@@ -9,10 +10,11 @@ export default function HomePageFooter() {
         <img src={footerHomeLogo} alt="logo" />
         <div className="socials">
         <a href="https://www.facebook.com/ONCOURT10?mibextid=LQQJ4d">
-        <img src="https://img.icons8.com/color/48/null/facebook-new.png" alt="facebookIcon"/>
+        {/* <img src="https://img.icons8.com/color/48/null/facebook-new.png" alt="facebookIcon"/> */}
+        <FacebookLogo className="facebookLogo"/>
         </a>
         <a href="https://instagram.com/on__court?igshid=YmMyMTA2M2Y=">
-        <img src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt="instagramIcon"/>
+          <InstagramLogo/>
         </a>
         </div>
       </div>
@@ -26,6 +28,10 @@ export default function HomePageFooter() {
         <h3>מייל : on_court@outlook.com</h3>
         <h3>טלפון : 054-4695039 <br/> בדיע כרכבי</h3>
       </div>
-    </div>
+    </div> 
   );
 }
+
+
+
+

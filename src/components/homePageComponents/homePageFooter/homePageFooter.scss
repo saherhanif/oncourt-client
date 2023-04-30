@@ -15,10 +15,9 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      img{
-        width: 4rem;
-        height: 4rem;
-        margin-left: 1rem;
+      
+      .facebookLogo{
+          margin-left: 2rem;
       }
     }
     }
@@ -31,6 +30,7 @@
       display: flex;
       flex-direction: row;
       font-size: 90%;
+
       .logoAndSocials{
         img{
           width: 10rem;
@@ -41,11 +41,12 @@
           flex-direction: row;
           justify-content: center;
           align-items: center;
-          img{
-            width: 3rem;
-            height: 3rem;
-            margin-right: 1rem;
-          }
+
+          svg{
+            width: 2rem;
+            height: 2rem;
+        }
+          
         }
       }
     }

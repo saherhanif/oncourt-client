@@ -1,13 +1,16 @@
 import React from "react";
 import "./aboutOnCourt.scss";
 import aboutImg from "./tennis-in-out-line-call.png";
-import StyledLine from "../StyledLine";
+import StyledLine from "../../StyledLine";
 export default function AboutOnCourt() {
   return (
     <div className="aboutOnCourtContainer">
       <div className="rightHalf">
-        <h1>קצת על<br/> אונקורט</h1>
-        <StyledLine/>
+        <h1>
+          קצת על
+          <br /> אונקורט
+        </h1>
+        <StyledLine />
         <p>
           "מחבט לכל ילד" הינה האמירה שתמיד אני מדגיש אותה בכל מפגש עם אנשי חינוך
           או אנשי חברה ותרבות, בעזרת החינוך לספורט ולערכי הספורט אנו מחוללים

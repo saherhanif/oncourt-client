@@ -1,9 +1,14 @@
 import React from 'react'
 import Navbar from "../../components/nav-bar";
-
-
+import TrainersToggle from "../../components/aboutPageComponents/trainerToggle"
+import Footer from '../../components/aboutPageComponents/footer';
+import './aboutPageStyle.scss'
 export default function About() {
   return (
-    <div><Navbar/></div>
+    <div className='wrapper'>
+      <Navbar/>
+      <TrainersToggle/>
+      <Footer/>
+    </div>
   )
 }
