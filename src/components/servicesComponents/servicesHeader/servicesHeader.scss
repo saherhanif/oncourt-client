@@ -1,0 +1,40 @@
+.serviceHeaderContainer{
+  height:30rem;
+  margin-top: 12rem;
+  margin-right: 10rem;
+  background-image: url(./blurredbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -8rem;
+
+  h1{
+    font-size: 3rem;
+  }
+
+  p{
+    margin-top: 4rem;
+    line-height: 3rem;
+    font-size: 150%;
+    width: 71%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .serviceHeaderContainer{
+    margin-top: 17rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    background-size: 40rem 30rem;
+    background-position-y: 8rem;
+    background-position-x: 2rem;
+
+    p{
+      width: 100%;
+      font-size: 2rem;
+    }
+  }
+
+  
+
+}

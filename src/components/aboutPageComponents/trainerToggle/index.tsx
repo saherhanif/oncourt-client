@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./trainersToggle.scss";
-import trainer1Image from './trainer1.png';
+import trainer1Image from "./trainer1.png";
 
 type Trainer = {
   name: string;
