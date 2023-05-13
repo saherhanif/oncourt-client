@@ -1,0 +1,152 @@
+.contactUsContainer {
+  margin-top: 8rem;
+  margin-right: 6rem;
+  margin-left: 6rem;
+  padding: 3rem;
+  background-image: url(./blurredbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -5rem;
+
+  .contactTitleAndLine {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .fieldsAndInfoContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25rem;
+
+    .fields {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 2rem;
+      width: 70%;
+
+      input {
+        width: 80%;
+        height: 2.5rem;
+        text-indent: 1rem;
+        border: 2px solid black;
+        background-color: white;
+      }
+      input::placeholder {
+        color: gray;
+        font-size: 1rem;
+      }
+      input:focus::placeholder {
+        color: white;
+      }
+      input:focus {
+        background-color: #c3f66b;
+      }
+      .description {
+        height: 5rem;
+        text-indent: 1rem;
+      }
+      .submitButton {
+        width: 7rem;
+        height: 3rem;
+        align-self: flex-end;
+        font-size: larger;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        background-color: #a6d07c;
+        text-indent: 0;
+        border: 0;
+        margin-left: 8.7rem;
+      }
+
+      .submitButton:hover {
+        cursor: pointer;
+        background-color: #c3f66b;
+      }
+    }
+
+    .contactUsInfo {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+
+      h1 {
+        width: 50%;
+        font-size: 3rem;
+        font-weight: bold;
+        background-color: #a6d07c;
+        border-radius: 20px 0 0 20px;
+        padding-right: 0.5rem;
+      }
+      .contactEmailAndPhone {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contactUsContainer {
+    margin-top: 10rem;
+    margin-right: 1rem;
+    width: 80%;
+    background-position-y: 0;
+    background-size: contain;
+    height:max-content;
+
+
+    .fieldsAndInfoContainer {
+      display: flex;
+      flex-direction: column;
+
+      .fields {
+        width: 100%;
+        justify-content: space-between;
+        height: 30rem;
+
+        input{
+          width: 100%;
+          height: 5rem;
+          margin-bottom: .5rem;
+        }
+        input::placeholder{
+          font-size: 2rem;
+        }
+
+        .description{
+          height: 10rem;
+        }
+
+        .submitButton{
+          margin-left: 0;
+          margin-top: 2rem;
+          width: 10rem;
+          height: 4rem;
+          align-self: self-end;
+
+        }
+        
+      
+      }
+
+      .contactUsInfo {
+        width: 100%;
+        justify-content: center;
+
+        h1{
+          font-size: 5rem;
+          width: 90%;
+        }
+        .contactEmailAndPhone {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
