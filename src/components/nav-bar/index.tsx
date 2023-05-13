@@ -8,7 +8,10 @@ export default function Navbar(): JSX.Element {
       
 
   const handleMenuToggle = (): void => {
-    setIsMenuOpen(!isMenuOpen);
+    if (window.innerWidth < 900) {
+      setIsMenuOpen(!isMenuOpen);
+    }else{
+  }
   };
 
   useEffect(() => {
